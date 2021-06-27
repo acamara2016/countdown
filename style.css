@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    color: white;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-image: url('./nick-karvounis-UA3zSV9ze8U-unsplash.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-position:  center center;
+    min-height: 100vh;
+    align-items: center;
+    place-content: center;
+}
+.countdown-container{
+    display: flex;
+
+}
+
+.annouce{
+    text-align: center;
+    font-size: large;
+}
+.contact{
+    margin-top: 40px;
+}
+
+.big-text{
+    font-size: xxx-large;
+    margin: 10px;
+}
+.day-c, .hour-c, .min-c, .sec-c {
+    text-align: center;
+    margin: 10px;
+}
+.happies{
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Dancing Script', cursive;
+}
