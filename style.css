@@ -7,7 +7,7 @@
 body{
     font-family: "Poppins", sans-serif;
     margin: 0;
-    background-image: url('./nick-karvounis-UA3zSV9ze8U-unsplash.jpg');
+    background-image: url('./Waterfront_and_Buskers-1920x1080.jpeg');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -16,29 +16,56 @@ body{
     align-items: center;
     place-content: center;
 }
+img{
+    opacity: 0.6;
+}
 .countdown-container{
     display: flex;
-
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn{
+    background-color: #2b2626d1;
+    border: 3px solid;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-bottom: 30px;
 }
 
 .annouce{
     text-align: center;
     font-size: large;
+    padding:40px 40px 40px 40px;
+    background-color: #0000009e;
 }
 .contact{
     margin-top: 40px;
 }
 
 .big-text{
-    font-size: xxx-large;
+    font-size: xx-large;
     margin: 10px;
 }
 .day-c, .hour-c, .min-c, .sec-c {
     text-align: center;
     margin: 10px;
+    border: 3px solid;
+    min-width: none;
+    max-width: 100px;
+    box-shadow: 5px 10px;
+    background-color: #2b2626d1;
+}
+.header-container{
+    justify-content:center;
+    text-align: -webkit-center;
 }
 .happies{
     text-align: center;
-    font-size: xxx-large;
-    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    border: 3px solid;
+    width: max-content;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    background-color: #2b2626d1;
 }
